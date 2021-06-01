@@ -1,0 +1,165 @@
+/* les pricipaux éméments de la page*/
+body
+{
+	background-color: antiquewhite;
+	font-family: Arial,'sans-serif';
+	color: gray;
+}
+#bloc_page
+{
+	width: 900px;
+	margin:auto;
+}
+/*@media all and (max-width: 1024px)
+{
+	#bloc_page
+{
+	width: auto;
+}
+}
+pour s'adapter à tous les écrans*/
+section h1, footer h1, nav a
+{
+	font-family: Dayrom,serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+/*section header*/
+header
+{
+	background:url('./img/background.jpg') repeat-x bottom;
+}
+#titre_principal
+{
+	display: inline-block;
+}
+header h1
+{
+	font-family: serif;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+#logo, header h1
+{
+	display: inline-block;
+	margin: 0px;
+}
+header h2
+{
+	font-family: Dayrom,serif;
+	font-size:1.1em;
+	margin-right: 0px;
+	font-weight: normal;
+
+}
+/* navigation*/
+nav
+{
+	display: inline-block;
+	width: 560px;
+	text-align: right;
+}
+  nav ul li a
+{
+	text-decoration-style: none;
+}
+nav li
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+nav a
+{
+	font-weight: 1.3em;
+	color: white;
+	padding-bottom: 2px;
+	text-decoration:none; 
+}
+nav a:hover
+{
+	color: blue;
+	text-overflow: 2px solid red;
+	text-decoration: underline;
+}
+
+/* baniéres*/
+#baniere_image
+{
+	border-radius: 5px;
+	position: relative;
+	box-shadow: 0px 4px 4px lightgray;
+	margin
+}
+#baniere_description
+{
+	bottom: 0px;
+	border-radius: 0px 0px 5px 5px;
+	text-decoration-color: rgba(24,24,24,0.8);
+	font-size: 0.8em;
+}
+/*.bouton_rouge*/
+{
+	display:none;
+	margin: 20px;
+	position: absolute;
+	right: 0px;
+	bottom: 30px;
+	background-color: red;
+	border-radius: 0px;
+}
+/*corps*/
+article, aside
+{
+	display: inline-block;
+	text-align: top;
+	text-decoration-color: white;
+}
+article
+{
+	width: 820px;
+	margin-right: 12px;
+}
+aside
+{
+	text-decoration-color: white;
+	display:inline-block;
+	width: 800px;
+	background-color: black;
+	box-shadow: 0px 2px 5px;
+	border-radius: 3px;
+	padding: 10px;
+	text-transform: uppercase;
+	
+}
+section h1
+{
+	text-align: center;
+	color: blue;
+}
+#couleur 
+{
+	color: blue;
+	width: 250px;
+	margin: auto;
+}
+/*@media screen and (max-width: 780px)
+{
+	header
+	{
+		height: 50px;
+	}
+	h1
+	{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a
+	{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a
+	{
+		padding: 5px 10px 10px 10px;
+	}
+}*/
